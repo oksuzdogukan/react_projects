@@ -1,0 +1,30 @@
+.cart{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 600px;
+    margin: 20px 20px;
+}
+.cart-title{
+    text-align: center;
+
+}
+.product-title{
+    width: 200px;
+}
+.cart-del-btn{
+    border: none;
+    width: 60px;
+    border-radius: 10px;
+    padding: 10px 20px;
+    background-color: #778da9;
+    color: #fff;
+    cursor: pointer;
+}
+.cart-del-btn:hover{
+    background-color: #495565;
+}
+.cart-del-btn:active{
+    opacity: 0.8;
+}

@@ -1,0 +1,16 @@
+.add-cart-btn {
+  margin-top: 10px;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  background-color: rgba(120, 181, 181, 0.937);
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.1s;
+}
+.add-cart-btn:hover {
+  background-color: rgba(65, 106, 106, 0.937);
+}
+.add-cart-btn:active {
+  opacity: 0.7;
+}
