@@ -1,0 +1,31 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* margin-top: 10px; */
+  justify-content: space-between;
+}
+.logo {
+  width: 60px;
+  height: 60px;
+  margin-right: 10px;
+}
+.logo-text {
+  font-size: 14px;
+  font-weight: 600;
+}
+.search-input {
+  border: none;
+  outline: none;
+  border-bottom: 2px solid gray;
+  padding: 5px 10px;
+  font-size: 14px;
+  color: gray;
+  margin-right: 20px;
+  border-radius: 10px;
+}
+.icon {
+  font-size: 20px;
+  margin-right: 10px;
+  cursor: pointer;
+}
