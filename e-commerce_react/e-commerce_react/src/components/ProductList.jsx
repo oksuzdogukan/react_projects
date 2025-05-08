@@ -11,7 +11,7 @@ function ProductList() {
 
     useEffect(() => {
         dispatch(getAllProducts())
-    }, [])
+    }, [dispatch]);
 
     const searchTerm = useSelector((store) => store.products.searchTerm);
     

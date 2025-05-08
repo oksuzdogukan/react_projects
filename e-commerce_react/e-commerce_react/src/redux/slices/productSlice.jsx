@@ -2,7 +2,7 @@ import { createSlice, createAsyncThunk } from '@reduxjs/toolkit'
 import axios from 'axios'
 
 const initialState = {
-    product: [],
+    products: [],
     selectedProduct: {},
     searchTerm: '',
     loading: false
